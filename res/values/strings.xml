@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roman Calculator</string>
+	<string name="switch_to_roman_calculator">Switch to Roman Calculator</string>
+	<string name="switch_to_basic_calculator">Switch to Basic Calculator</string>
+
+</resources>

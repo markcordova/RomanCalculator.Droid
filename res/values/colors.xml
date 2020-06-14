@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#D5D5D6</color>    
+    
+    <color name="slate_gray">#B9D3EE</color>   
+    <color name="led_green">#5DFC0A</color>
+    <color name="cadmium_red">#E3170D</color>
+
+</resources>
+
+
+

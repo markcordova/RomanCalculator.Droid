@@ -1,0 +1,7 @@
+<resources>
+	<style name="Theme.CalcLight" parent="android:Theme.Light">  
+		<item name="android:windowNoTitle">false</item>
+		<item name="android:windowBackground">@color/background_gray</item>
+		<item name="android:windowTitleSize">30dip</item>								
+	</style>
+</resources>

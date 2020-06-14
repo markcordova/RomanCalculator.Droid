@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<EditText
+android:id="@+id/txtOutput"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textSize="18sp"
+android:layout_gravity="right"
+android:clickable="false" android:focusable="false" android:focusableInTouchMode="false" android:gravity="bottom|right" android:lines="5" android:layout_marginTop="5dip">
+</EditText><TableLayout android:id="@+id/widget44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:stretchColumns="0,1,2,3,4" android:shrinkColumns="0,1,2,3,4">
+<TableRow android:id="@+id/widget45" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey13" android:text="c">
+</Button>
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="d" android:id="@+id/btnKey14" android:textStyle="bold" android:width="0px"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="m" android:id="@+id/btnKey15" android:textStyle="bold" android:width="0px"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:text="Del" android:id="@+id/btnDel" android:textStyle="italic">
+</Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:text="AC" android:id="@+id/btnAC" android:textStyle="italic">
+</Button>
+
+
+
+
+</TableRow>
+<TableRow android:id="@+id/widget51" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey10" android:text="v">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey11" android:text="x">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey12" android:text="l">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(" android:width="0px" android:id="@+id/btnOpenParenthesis">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=")" android:width="0px" android:id="@+id/btnCloseParenthesis">
+</Button>
+</TableRow><TableRow android:id="@+id/widget57" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey07" android:text="C">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey08" android:text="D">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey09" android:text="M/i">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:width="0px" android:id="@+id/btnMultiply">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" android:width="0px" android:id="@+id/btnDivide">
+</Button>
+</TableRow><TableRow android:id="@+id/widget63" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey04" android:text="V">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey05" android:text="X">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="L" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey06">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:width="0px" android:id="@+id/btnAdd">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:width="0px" android:id="@+id/btnSubract">
+</Button>
+</TableRow><TableRow android:id="@+id/widget69" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey01" android:text="I">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey02" android:text="S">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="0px" android:textStyle="bold" android:id="@+id/btnKey03" android:text=".">
+</Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="2" android:text="=" android:width="0px" android:id="@+id/btnEquals">
+</Button>
+
+</TableRow></TableLayout><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/btnModeSwitcher" android:text="Switch to Basic Calculator" android:layout_gravity="bottom" android:layout_marginTop="5dip"></Button>
+
+
+
+
+
+
+
+</LinearLayout>
